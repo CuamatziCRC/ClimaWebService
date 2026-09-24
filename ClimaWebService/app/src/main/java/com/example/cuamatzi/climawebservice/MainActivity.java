@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         try {
-            content = weather.execute("https://openweathermap.org/data/2.5/weather?q="+CNombre+ "&appid=b6907d289e10d714a6e88b30761fae22"+"&lang=es").get();
+            content = weather.execute("https://openweathermap.org/data/2.5/weather?q="+CNombre+ "&appid=APIKEY"+"&lang=es").get();
 
             //se verifica si se envia o no la informacion
             Log.i("contentData",content);
